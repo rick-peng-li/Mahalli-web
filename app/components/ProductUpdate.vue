@@ -1,0 +1,181 @@
+<script setup lang="ts">
+import { commands } from "@/bindings";
+import type { Product } from "@/bindings";
+import { toTypedSchema } from "@vee-validate/zod";
+import * as Logger from "@tauri-apps/plugin-log";
+import { X } from "lucide-vue-next";
+import { useForm } from "vee-validate";
+import { toast } from "vue-sonner";
+import { z } from "zod";
+
+const props = defineProps<{
+  id: string;
+  name: string;
+  purchasePrice: number;
+  sellingPrice: number;
+  description?: string;
+  minQuantity: number;
+}>();
+const { close } = useModal();
+const { t } = useI18n();
+const { showErrorToast } = useCommandError();
+const productSchema = toTypedSchema(
+  z.object({
+    name: z
+      .string()
+      .min(2)
+      .max(50)
+      .default(props.name as string),
+    purchase_price: z
+      .number()
+      .min(0)
+      .default(Number(props.purchasePrice ?? 0)),
+    selling_price: z
+      .number()
+      .min(0)
+      .default(Number(props.sellingPrice ?? 0)),
+    description: z
+      .string()
+      .min(2)
+      .default((props.description as string) ?? ""),
+    min_quantity: z.number().default(Number(props.minQuantity ?? 0)),
+  }),
+);
+
+const form = useForm({
+  validationSchema: productSchema,
+});
+
+async function updateTheProduct(product: {
+  name: string;
+  purchase_price: number;
+  selling_price: number;
+  description?: string;
+  min_quantity: number;
+}) {
+  try {
+    const id = props.id;
+    const payload: Product = {
+      name: product.name,
+      selling_price: Number(product.selling_price),
+      purchase_price: Number(product.purchase_price),
+      description: product.description ?? null,
+      min_quantity: Number(product.min_quantity),
+      image: null,
+      id,
+    };
+    const result = await commands.updateProduct(payload);
+    if (result.status === "error") throw result.error;
+
+    Logger.info(
+      `UPDATE PRODUCT: ${JSON.stringify({
+        name: product.name,
+        selling_price: Number(product.selling_price),
+        purchase_price: Number(product.purchase_price),
+        description: product.description,
+        min_quantity: Number(product.min_quantity),
+        id,
+      })}`,
+    );
+    //
+    toast.success(t("notifications.product.updated", { name: product.name }), {
+      closeButton: true,
+    });
+    await refreshNuxtData(["products-list", "home-inventory"]);
+  } catch (err: any) {
+    showErrorToast(err);
+    Logger.error(`ERROR UPDATE PRODUCT: ${err.error ? err.error : err.message}`);
+  } finally {
+    close();
+  }
+}
+
+const onSubmit = form.handleSubmit((values) => {
+  updateTheProduct(values);
+});
+</script>
+
+<template>
+  <form class="w-full flex justify-center" @submit="onSubmit">
+    <Card class="card-modal-shell w-4/6 lg:w-1/2">
+      <div class="card-modal-header">
+        <div class="card-modal-header-inner">
+          <div class="space-y-1">
+            <p class="card-modal-eyebrow">{{ t("routes.products") }}</p>
+            <h2 class="card-modal-title">{{ t("titles.products.update") }}</h2>
+            <p class="card-modal-description">{{ t("modalDescriptions.products.update") }}</p>
+          </div>
+          <Button type="button" variant="ghost" size="icon" class="rounded-full" @click="close">
+            <X class="size-5" />
+          </Button>
+        </div>
+      </div>
+      <CardContent class="card-modal-body">
+        <FormField v-slot="{ componentField }" name="name">
+          <FormItem>
+            <FormLabel>{{ t("fields.name") }}</FormLabel>
+            <FormControl>
+              <Input :placeholder="t('fields.name')" v-bind="componentField" />
+            </FormControl>
+          </FormItem>
+        </FormField>
+        <FormField v-slot="{ componentField }" name="purchase_price">
+          <FormItem>
+            <FormLabel>{{ t("fields.purchase-price") }}</FormLabel>
+            <FormControl>
+              <Input
+                type="number"
+                :placeholder="t('fields.purchase-price')"
+                v-bind="componentField"
+              >
+                <template #unite> DH </template>
+              </Input>
+            </FormControl>
+          </FormItem>
+        </FormField>
+        <FormField v-slot="{ componentField }" name="selling_price">
+          <FormItem>
+            <FormLabel>{{ t("fields.selling-price") }}</FormLabel>
+            <FormControl>
+              <Input type="number" :placeholder="t('fields.selling-price')" v-bind="componentField">
+                <template #unite> DH </template>
+              </Input>
+            </FormControl>
+          </FormItem>
+        </FormField>
+        <FormField v-slot="{ componentField }" name="min_quantity">
+          <FormItem>
+            <FormLabel>{{ t("fields.min-quantity") }}</FormLabel>
+            <FormControl>
+              <Input type="number" :placeholder="t('fields.min-quantity')" v-bind="componentField">
+                <template #unite>
+                  {{ t("fields.item") }}
+                </template>
+              </Input>
+            </FormControl>
+          </FormItem>
+        </FormField>
+        <FormField v-slot="{ componentField }" name="description">
+          <FormItem>
+            <FormLabel>
+              {{ t("fields.description") }}
+            </FormLabel>
+            <FormControl>
+              <Textarea :placeholder="t('fields.description')" v-bind="componentField" />
+            </FormControl>
+          </FormItem>
+        </FormField>
+      </CardContent>
+      <div class="card-modal-footer">
+        <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-end">
+          <Button type="button" variant="outline" @click="close">
+            {{ t("buttons.cancel") }}
+          </Button>
+          <Button type="submit">
+            {{ t("buttons.update", { name }) }}
+          </Button>
+        </div>
+      </div>
+    </Card>
+  </form>
+</template>

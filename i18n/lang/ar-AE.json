@@ -1,0 +1,484 @@
+{
+  "seo": {
+    "title": "إدارة سهلة للمخزون والفواتير",
+    "description": "أدر عملاءك ومنتجاتك بسهولة، وقم بإنشاء عروض الأسعار والطلبات والفواتير مع محلي - حلك الشامل للأعمال."
+  },
+  "search": "البحث",
+  "pick-date": "اختر تاريخًا",
+  "select-status": "اختر حالة",
+  "routes": {
+    "home": "الصفحة الرئيسية",
+    "clients": "العملاء",
+    "products": "المنتجات",
+    "orders": "الطلبات",
+    "delivery-notes": "سندات التسليم",
+    "invoices": "الفواتير",
+    "credit-notes": "إشعارات الخصم",
+    "inventory": "المخزون",
+    "dashboard": "لوحة التحكم",
+    "settings": "الإعدادات",
+    "quotes": "العروض",
+    "notifications": "الإشعارات"
+  },
+  "buttons": {
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "add": "إضافة",
+    "confirme": "تأكيد",
+    "update": "تحديث {name}",
+    "add-product": "إضافة منتج",
+    "toggle-create-client": "إضافة عميل جديد",
+    "toggle-create-product": "إضافة منتج جديد",
+    "toggle-create-order": "إضافة طلب جديد",
+    "toggle-create-quote": "إضافة عرض جديد",
+    "toggle-create-invoice": "إضافة فاتورة جديدة",
+    "toggle-create-org": "إنشاء منظمة",
+    "edit": "تحرير",
+    "finalize": "إنهاء",
+    "add-payment": "إضافة دفعة",
+    "delete": "حذف",
+    "print": "طباعة",
+    "to-order": "إنشاء طلب",
+    "to-delivery-note": "إنشاء سند تسليم",
+    "to-invoice": "إنشاء فاتورة",
+    "go-to-order": "الانتقال إلى الطلب",
+    "go-to-delivery-note": "الانتقال إلى سند التسليم",
+    "go-to-invoice": "الانتقال إلى الفاتورة",
+    "create-invoice": "إنشاء فاتورة",
+    "create-credit-note": "إنشاء إشعار خصم",
+    "inventory-update": "تحديث المخزون",
+    "generate-invoice": "إنشاء الفاتورة",
+    "generate-order": "إنشاء الطلب",
+    "generate-quote": "إنشاء عرض السعر",
+    "generate-delivery-note": "إنشاء سند التسليم",
+    "generate-credit-note": "إنشاء إشعار الخصم",
+    "create": "إنشاء",
+    "creating": "جاري الإنشاء...",
+    "view": "عرض",
+    "close": "إغلاق"
+  },
+  "translationTitle": "تغيير اللغة",
+  "translationDescription": "اختر اللغة التي تريد استخدامها في Mahalli.",
+  "filters": {
+    "more": "مزيد من الفلاتر",
+    "clear-all": "مسح الكل",
+    "from": "من",
+    "to": "إلى",
+    "min": "الحد الأدنى",
+    "max": "الحد الأقصى",
+    "required": "مطلوب",
+    "credit-only": "العملاء ذوو الرصيد المستحق",
+    "has-email": "لديه بريد إلكتروني",
+    "has-phone": "لديه هاتف",
+    "stock-status": "حالة المخزون",
+    "out-of-stock": "نفد المخزون",
+    "low-stock": "مخزون منخفض",
+    "healthy-stock": "مخزون جيد",
+    "search-by-field": "البحث حسب الحقل"
+  },
+  "columns": {
+    "show-hide": "إظهار/إخفاء الأعمدة",
+    "all": "الكل"
+  },
+  "dropZone": "اسحب وأفلت أو اختر",
+  "plrz": {
+    "i": "لا يوجد عنصر | عنصر | عناصر",
+    "p": "لا يوجد منتج | منتج | منتجات"
+  },
+  "fields": {
+    "full-name": "الاسم الكامل",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "address": "العنوان",
+    "actions": "الإجراءات",
+    "identifier": "المعرف",
+    "columns": "الأعمدة",
+    "description": "الوصف",
+    "amount": "المبلغ",
+    "status": "الحالة",
+    "price": "السعر",
+    "purchase-price": "سعر الشراء",
+    "selling-price": "سعر البيع",
+    "date": "التاريخ",
+    "paid": "مدفوع",
+    "rest": "الباقي",
+    "items": "العناصر",
+    "total": "المجموع",
+    "inventory": "المخزون",
+    "init-quantity": "الكمية الأولية",
+    "min-quantity": "الكمية الدنيا",
+    "quantity": "الكمية",
+    "credit": "الائتمان",
+    "threshold": "العتبة",
+    "item": "العنصر",
+    "product": "المنتج",
+    "sub-total": "المجموع الفرعي",
+    "vat-rate": "نسبة ضريبة القيمة المضافة",
+    "vat-amount": "مبلغ ضريبة القيمة المضافة",
+    "grand-total": "الإجمالي الكلي",
+    "template": "القالب",
+    "configuration": "التكوين",
+    "top-margin": "الهوامش العلوية",
+    "bottom-margin": "الهوامش السفلية",
+    "bill-to": "فاتورة إلى :",
+    "invoice": "فاتورة",
+    "order": "طلب",
+    "quote": "عرض أسعار",
+    "no-match": "لم يتم العثور على تطابق",
+    "subtotal": "المجموع الفرعي",
+    "balance": "الرصيد",
+    "payments": "الدفعات",
+    "currency": "درهم",
+    "ice": "ICE",
+    "if-number": "IF",
+    "rc": "RC",
+    "patente": "Patente / TP",
+    "reason": "السبب",
+    "contact": "جهات الاتصال",
+    "legal-identifiers": "المعرفات القانونية",
+    "credit-note": "إشعار خصم",
+    "delivery-note": "ملاحظة التسليم",
+    "client": "العميل",
+    "paid-amount": "المبلغ المدفوع"
+  },
+  "placeholders": {
+    "select-client": "اختر عميلاً",
+    "no-client-selected": "لم يتم اختيار عميل بعد",
+    "no-email": "لا يوجد بريد إلكتروني",
+    "no-address": "لا يوجد عنوان",
+    "no-phone": "لا يوجد هاتف",
+    "payment-description": "ملاحظة دفع اختيارية",
+    "no-payments": "لا توجد دفعات مسجلة بعد",
+    "reason": "أدخل سبب إشعار الخصم"
+  },
+  "seller-profile": {
+    "title": "ملف البائع",
+    "description": "معلومات الشركة المستخدمة في مستندات B2B والفواتير.",
+    "fields": {
+      "legal-name": "الاسم القانوني",
+      "commercial-name": "الاسم التجاري",
+      "city": "المدينة",
+      "currency": "العملة الافتراضية",
+      "payment-terms": "مدة الدفع بالأيام",
+      "invoice-footer": "تذييل الفاتورة"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "description": "إدارة إعدادات وتكوينات التطبيق الخاص بك.",
+    "tabs": {
+      "databases": "قواعد البيانات",
+      "seller-profile": "ملف البائع"
+    }
+  },
+  "clients": {
+    "title": "العملاء",
+    "description": "إدارة عملائك ومعلومات الاتصال بهم."
+  },
+  "products": {
+    "title": "المنتجات",
+    "description": "إدارة الكتالوج والمخزون الخاص بك."
+  },
+  "invoices": {
+    "title": "الفواتير",
+    "description": "عرض وإدارة الفواتير والدفعات الخاصة بك."
+  },
+  "orders": {
+    "title": "الطلبات",
+    "description": "إنشاء وإدارة طلبات البيع الخاصة بك."
+  },
+  "inventory": {
+    "title": "المخزون",
+    "description": "تتبع حركات المخزون وعمليات المخزون."
+  },
+  "quotes": {
+    "title": "العروض",
+    "description": "إنشاء وإدارة عروض الأسعار الخاصة بك."
+  },
+  "delivery-notes": {
+    "title": "سندات التسليم",
+    "description": "إدارة وثائق التسليم والشحنات الخاصة بك."
+  },
+  "credit-notes": {
+    "title": "إشعارات الخصم",
+    "description": "إنشاء وإدارة إشعارات الخصم للفواتير الخاصة بك."
+  },
+  "status": {
+    "pending": "قيد الانتظار",
+    "accepted": "مقبول",
+    "invoiced": "تمت الفوترة",
+    "processing": "قيد المعالجة",
+    "shipped": "شحنت",
+    "delivered": "تم التسليم",
+    "cancelled": "ملغى",
+    "completed": "مكتمل",
+    "draft": "مسودة",
+    "sent": "تم الإرسال",
+    "paid": "مدفوع",
+    "partially_paid": "مدفوع جزئيًا",
+    "finalized": "نهائي",
+    "overdue": "متأخر",
+    "in": "مشتراة",
+    "out": "مبيعة"
+  },
+  "dashboard": {
+    "title": "ملخص مالي",
+    "labels": ["مشتراة", "مبيعة"],
+    "revenue": "الإيرادات الإجمالية",
+    "expenses": "المصاريف الإجمالية",
+    "profit": "إجمالي الربح",
+    "growth": " {n} من الشهر الماضي",
+    "b3c": "أفضل العملاء بناءً على النفقات",
+    "bp": "أفضل المنتجات مبيعًا (الكمية)"
+  },
+  "tables": {
+    "empty": {
+      "title": "لم يتم العثور على نتائج",
+      "description": "حاول تعديل البحث أو الفلاتر."
+    }
+  },
+  "database": {
+    "common": {
+      "none": "لا يوجد",
+      "empty": "فارغ",
+      "start-empty": "ابدأ فارغًا"
+    },
+    "actions": {
+      "refresh": "تحديث",
+      "new": "قاعدة بيانات جديدة",
+      "create": "إنشاء",
+      "creating": "جارٍ الإنشاء...",
+      "switch": "تبديل",
+      "seed": "إضافة بيانات تجريبية",
+      "seeding": "جارٍ الإضافة..."
+    },
+    "fields": {
+      "slug": "المعرّف",
+      "source": "المصدر",
+      "clone-from": "نسخ من",
+      "database-name": "اسم قاعدة البيانات",
+      "start-from": "ابدأ من"
+    },
+    "status": {
+      "active": "نشطة",
+      "idle": "غير نشطة",
+      "current": "الحالية",
+      "switch-title": "تبديل قاعدة البيانات"
+    },
+    "placeholders": {
+      "name": "متجر الدار البيضاء",
+      "initial-name": "مساحة عمل محلي الرئيسية"
+    },
+    "settings": {
+      "title": "إعدادات قواعد البيانات",
+      "description": "أدر قاعدة الفهرس وبدّل قاعدة الأعمال النشطة.",
+      "active-title": "قاعدة البيانات النشطة",
+      "no-active-description": "لم يتم اختيار أي قاعدة بيانات.",
+      "catalog-title": "الفهرس",
+      "catalog-count": "{count} قواعد بيانات",
+      "catalog-description": "يمكن أن تبدأ القواعد الجديدة فارغة أو تستنسخ أي ملف tenant موجود.",
+      "create-card-description": "افتح نافذة لإنشاء قاعدة نظيفة أو استنساخ قاعدة موجودة.",
+      "create-card-note": "يمكن أن تبدأ القواعد الجديدة فارغة أو تنسخ البيانات من أي قاعدة مسجلة سابقًا.",
+      "registered-title": "قواعد البيانات المسجلة",
+      "registered-description": "تأتي هذه السجلات من قاعدة الفهرس النظامية.",
+      "empty-state": "لا توجد قواعد بيانات مسجلة بعد.",
+      "seed-title": "إضافة بيانات تجريبية",
+      "seed-description": "املأ قاعدة البيانات ببيانات نموذجية للاختبار والتطوير.",
+      "seed-card-note": "سيؤدي هذا إلى إضافة 200 عميل و400 منتج و100 طلب و100 فاتورة و150 عرض سعر مع بيانات نموذجية."
+    },
+    "create": {
+      "title": "إنشاء قاعدة بيانات",
+      "description": "أنشئ قاعدة نظيفة أو انسخ قاعدة سابقة قبل التبديل إليها.",
+      "make-active-title": "اجعلها نشطة فورًا",
+      "make-active-description": "ستستخدم أوامر الأعمال اتصال tenant النشط الجديد."
+    },
+    "selector": {
+      "title": "اختر قاعدة بيانات",
+      "description": "توجد قواعد بيانات لكن لا توجد قاعدة نشطة حاليًا. اختر واحدة للمتابعة.",
+      "opening": "جارٍ الفتح",
+      "use-database": "استخدم هذه القاعدة",
+      "manage": "إدارة قواعد البيانات"
+    },
+    "onboarding": {
+      "badge": "الإعداد الأولي",
+      "title": "قم بإعداد أول قاعدة بيانات لمساحة العمل قبل البدء في إدارة العملاء والمخزون.",
+      "description": "يحتفظ Mahalli بقاعدة نظام لإدارة قواعد البيانات، وقواعد tenant منفصلة لبيانات أعمالك. تنشئ هذه الشاشة أول قاعدة tenant وتفعّلها فورًا.",
+      "initial-tenant": "الـ tenant الأولي",
+      "form-title": "أنشئ أول قاعدة بيانات",
+      "form-description": "استخدم قاعدة فارغة أو انسخ البيانات من tenant سابق إذا كان موجودًا.",
+      "active-note": "سيتم تعيين القاعدة الجديدة كنشطة فورًا حتى يتمكن باقي التطبيق من الفتح بشكل طبيعي.",
+      "creating": "جارٍ إنشاء قاعدة البيانات...",
+      "create-and-continue": "إنشاء والمتابعة"
+    },
+    "notifications": {
+      "name-required": "اسم قاعدة البيانات مطلوب.",
+      "create-error": "تعذر إنشاء قاعدة البيانات.",
+      "create-success": "تم إنشاء قاعدة البيانات.",
+      "switch-error": "تعذر تبديل قاعدة البيانات.",
+      "switch-success": "تم تغيير قاعدة البيانات النشطة.",
+      "open-error": "تعذر فتح قاعدة البيانات.",
+      "choose-another": "يرجى اختيار قاعدة أخرى أو إنشاء قاعدة جديدة.",
+      "initial-create-error": "تعذر إنشاء قاعدة البيانات الأولى.",
+      "try-another-name": "جرّب اسمًا آخر أو اختر قاعدة مصدر مختلفة.",
+      "ready": "قاعدة البيانات جاهزة.",
+      "seed-success": "تم إضافة البيانات التجريبية بنجاح",
+      "seed-error": "تعذر إضافة البيانات التجريبية"
+    }
+  },
+  "notifications": {
+    "product": {
+      "created": "تم إضافة المنتج {name}",
+      "updated": "تم تحديث المنتج {name}",
+      "deleted": "تم حذف المنتج {name}"
+    },
+    "client": {
+      "created": "تم إضافة العميل {name}",
+      "updated": "تم تحديث العميل {name}",
+      "deleted": "تم حذف العميل {name}"
+    },
+    "order": {
+      "created": "تم إنشاء طلب",
+      "updated": "تم تحديث الطلب",
+      "deleted": "تم حذف الطلب"
+    },
+    "delivery-note": {
+      "created": "تم إنشاء سند التسليم"
+    },
+    "credit-note": {
+      "created": "تم إنشاء إشعار الخصم"
+    },
+    "seller-profile": {
+      "updated": "تم تحديث ملف البائع"
+    },
+    "invoice": {
+      "created": "تم إنشاء فاتورة",
+      "updated": "تم تحديث الفاتورة",
+      "deleted": "تم حذف الفاتورة",
+      "payment-added": "تمت إضافة الدفعة إلى الفاتورة",
+      "payment-too-high": "قيمة الدفعة أكبر من المسموح",
+      "payment-too-high-description": "المبلغ غير المدفوع المتبقي هو {amount}"
+    },
+    "quote": {
+      "created": "تم إنشاء عرض",
+      "updated": "تم تحديث العرض",
+      "deleted": "تم حذف العرض"
+    },
+    "organization": {
+      "created": "تم إنشاء المنظمة {name}",
+      "updated": "تم تحديث المنظمة {name}",
+      "deleted": "تم حذف المنظمة {name}",
+      "no-org-alert": {
+        "title": "لا توجد منظمة محددة",
+        "description": "اختر أو أنشئ منظمة جديدة"
+      }
+    },
+    "error": {
+      "title": "عفواً! حدث خطأ ما من جانبنا.",
+      "description": "يمكنك المحاولة مرة أخرى"
+    },
+    "errors": {
+      "database-required": "اختر قاعدة بيانات قبل استخدام التطبيق.",
+      "database-not-found": "تعذر العثور على قاعدة البيانات المحددة.",
+      "database-source-not-found": "تعذر العثور على قاعدة البيانات المصدر.",
+      "database-source-file-missing": "ملف قاعدة البيانات المصدر مفقود.",
+      "database-file-already-exists": "يوجد بالفعل ملف قاعدة بيانات بالاسم نفسه.",
+      "database-open-failed": "تعذر فتح ملف قاعدة البيانات.",
+      "database-create-incomplete": "تم إنشاء قاعدة البيانات ولكن تعذر تحميلها بعد ذلك.",
+      "client-not-found": "تعذر العثور على العميل.",
+      "quote-not-found": "تعذر العثور على عرض السعر.",
+      "order-not-found": "تعذر العثور على الطلب.",
+      "delivery-note-not-found": "تعذر العثور على سند التسليم.",
+      "delivery-note-order-not-found": "تعذر العثور على الطلب المرتبط بسند التسليم هذا.",
+      "delivery-note-inventory-missing": "تعذر العثور على حركة المخزون المرتبطة بسند التسليم هذا.",
+      "credit-note-not-found": "تعذر العثور على إشعار الخصم.",
+      "credit-note-invoice-not-found": "تعذر العثور على الفاتورة المرتبطة بإشعار الخصم هذا.",
+      "invoice-not-found": "تعذر العثور على الفاتورة.",
+      "invoice-payment-date-invalid": "تاريخ الدفعة غير صالح.",
+      "invoice-payment-amount-invalid": "يجب أن يكون مبلغ الدفعة أكبر من صفر.",
+      "invoice-payment-deleted": "لا يمكن إضافة دفعة إلى فاتورة محذوفة.",
+      "invoice-payment-exceeds-remaining": "مبلغ الدفعة يتجاوز المبلغ المتبقي غير المدفوع.",
+      "invoice-finalize-requires-paid": "يمكن إنهاء الفواتير المدفوعة بالكامل فقط.",
+      "invoice-finalized-edit-blocked": "لا يمكن تعديل الفواتير النهائية.",
+      "invoice-finalized-delete-blocked": "لا يمكن حذف الفواتير النهائية.",
+      "credit-note-requires-finalized-invoice": "يمكن إنشاء إشعارات الخصم للفواتير النهائية فقط.",
+      "credit-note-empty": "يجب أن يحتوي إشعار الخصم على عنصر واحد على الأقل.",
+      "credit-note-quantity-invalid": "يجب أن تكون كميات إشعار الخصم أكبر من صفر.",
+      "credit-note-price-invalid": "لا يمكن أن تكون أسعار إشعار الخصم سالبة.",
+      "credit-note-item-not-on-invoice": "أحد عناصر إشعار الخصم غير موجود في الفاتورة الأصلية.",
+      "credit-note-quantity-exceeds-invoice": "كمية في إشعار الخصم تتجاوز الكمية المفوترة.",
+      "credit-note-price-exceeds-invoice": "سعر في إشعار الخصم يتجاوز السعر المفوتر.",
+      "order-status-invalid": "حالة الطلب غير صالحة.",
+      "invoice-status-invalid": "حالة الفاتورة غير صالحة.",
+      "status-transition-invalid": "لا يُسمح بهذا التغيير في الحالة.",
+      "inventory-transaction-missing": "تعذر العثور على حركة المخزون المرتبطة.",
+      "data-unavailable": "لا توجد بيانات متاحة لهذا العرض حتى الآن.",
+      "conflict": "هذا الإجراء يتعارض مع بيانات موجودة."
+    }
+  },
+  "titles": {
+    "clients": {
+      "create": "إضافة عميل",
+      "update": "تحديث العميل",
+      "delete": "حذف العميل"
+    },
+    "products": {
+      "create": "إضافة منتج",
+      "update": "تحديث المنتج",
+      "update-inventory": "تحديث مخزون المنتج",
+      "delete": "حذف المنتج"
+    },
+    "orders": {
+      "create": "إضافة طلب جديد",
+      "view": "عرض الطلب",
+      "update": "تحديث الطلب",
+      "delete": "حذف الطلب"
+    },
+    "quotes": {
+      "create": "إضافة عرض جديد",
+      "view": "عرض العرض",
+      "update": "تحديث العرض",
+      "delete": "حذف العرض"
+    },
+    "invoices": {
+      "create": "إضافة فاتورة جديدة",
+      "view": "عرض الفاتورة",
+      "update": "تحديث الفاتورة",
+      "delete": "حذف الفاتورة",
+      "add-payment": "إضافة دفعة"
+    },
+    "credit-notes": {
+      "view": "عرض إشعار الخصم"
+    },
+    "delivery-notes": {
+      "view": "عرض ملاحظة التسليم"
+    },
+    "organizations": {
+      "create": "إضافة منظمة جديدة",
+      "update": "تحديث المنظمة",
+      "delete": "هل أنت متأكد أنك تريد حذف المنظمة؟"
+    }
+  },
+  "modalDescriptions": {
+    "clients": {
+      "create": "أضف بيانات التواصل ومعلومات الفوترة لعميل جديد.",
+      "update": "راجع ملف العميل واحفظ أي تغييرات على بيانات التواصل.",
+      "delete": "سيؤدي هذا الإجراء إلى حذف العميل نهائيًا من مساحة العمل."
+    },
+    "products": {
+      "create": "حدّد الأسعار وحدود المخزون والكمية الافتتاحية لهذا المنتج.",
+      "update": "عدّل الأسعار والحدود وتفاصيل المنتج قبل الحفظ.",
+      "update-inventory": "سجّل الكمية التي تريد إضافتها مرة أخرى إلى المخزون.",
+      "delete": "سيؤدي هذا الإجراء إلى حذف المنتج نهائيًا من الكتالوج."
+    },
+    "orders": {
+      "delete": "سيؤدي هذا الإجراء إلى حذف الطلب وبنوده المرتبطة نهائيًا."
+    },
+    "quotes": {
+      "delete": "سيؤدي هذا الإجراء إلى حذف العرض وبنوده المرتبطة نهائيًا."
+    },
+    "invoices": {
+      "delete": "سيؤدي هذا الإجراء إلى حذف الفاتورة وبنودها المرتبطة نهائيًا."
+    }
+  }
+}

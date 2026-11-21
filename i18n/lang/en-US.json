@@ -1,0 +1,485 @@
+{
+  "seo": {
+    "title": "Easy Inventory and Invoicing Management",
+    "description": "Manage your clients and products easily, generate quotes, orders and invoices with Mahalli - your all-in-one business solution."
+  },
+  "search": "Search",
+  "pick-date": "Pick a date",
+  "select-status": "Select a status",
+  "routes": {
+    "home": "Home",
+    "clients": "Clients",
+    "products": "Products",
+    "orders": "Orders",
+    "delivery-notes": "Delivery notes",
+    "invoices": "Invoices",
+    "credit-notes": "Credit notes",
+    "inventory": "Inventory",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "quotes": "Quotes",
+    "notifications": "Notifications"
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "add": "Add",
+    "confirme": "Confirme",
+    "update": "Update {name}",
+    "add-product": "Add a product",
+    "toggle-create-client": "Add new client",
+    "toggle-create-product": "Add new product",
+    "toggle-create-order": "Add new order",
+    "toggle-create-quote": "Add new quote",
+    "toggle-create-invoice": "Add new invoice",
+    "toggle-create-org": "Create an organisation",
+    "edit": "Edit",
+    "finalize": "Finalize",
+    "add-payment": "Add payment",
+    "delete": "Delete",
+    "print": "Print",
+    "to-order": "Create order",
+    "to-delivery-note": "Create delivery note",
+    "to-invoice": "Create invoice",
+    "go-to-order": "Go to order",
+    "go-to-delivery-note": "Go to delivery note",
+    "go-to-invoice": "Go to invoice",
+    "create-invoice": "Create invoice",
+    "create-credit-note": "Create credit note",
+    "inventory-update": "Update inventory",
+    "generate-invoice": "Generate invoice",
+    "generate-order": "Generate order",
+    "generate-quote": "Generate quote",
+    "generate-delivery-note": "Generate delivery note",
+    "generate-credit-note": "Generate credit note",
+    "create": "Create",
+    "creating": "Creating...",
+    "view": "View",
+    "close": "Close"
+  },
+  "translationTitle": "Change Language",
+  "translationDescription": "Choose the language you want to use across Mahalli.",
+  "filters": {
+    "more": "More filters",
+    "clear-all": "Clear all",
+    "from": "From",
+    "to": "To",
+    "min": "Min",
+    "max": "Max",
+    "required": "Required",
+    "credit-only": "Clients with outstanding credit",
+    "has-email": "Has email",
+    "has-phone": "Has phone",
+    "stock-status": "Stock status",
+    "out-of-stock": "Out of stock",
+    "low-stock": "Low stock",
+    "healthy-stock": "Healthy stock",
+    "search-by-field": "Search by field"
+  },
+  "columns": {
+    "show-hide": "Show/Hide Columns",
+    "all": "All"
+  },
+  "dropZone": "Drag and drop or select",
+  "plrz": {
+    "i": "no items |  item |  items",
+    "p": "no products |  product |  products"
+  },
+  "fields": {
+    "full-name": "Full name",
+    "name": "Name",
+    "email": "E-mail",
+    "phone": "Phoner number",
+    "address": "Address",
+    "actions": "Actions",
+    "identifier": "Identifier",
+    "columns": "Columns",
+    "description": "Description",
+    "amount": "Amount",
+    "status": "Status",
+    "price": "Price",
+    "purchase-price": "Purchase Price",
+    "selling-price": "Selling Price",
+    "date": "Date",
+    "paid": "Paid",
+    "rest": "Rest",
+    "items": "Items",
+    "total": "Total",
+    "inventory": "Inventory",
+    "init-quantity": "Initiale Quantity",
+    "min-quantity": "Minimum Quantity",
+    "quantity": "Quantity",
+    "credit": "Credit",
+    "threshold": "Threshold",
+    "item": "Item",
+    "product": "Product",
+    "sub-total": "sub-total",
+    "vat-rate": "VAT rate",
+    "vat-amount": "VAT amount",
+    "grand-total": "grand total",
+    "template": "Template",
+    "configuration": "Configuration",
+    "top-margin": "Top margin",
+    "bottom-margin": "Bottom margin",
+    "bill-to": "Bill to :",
+    "invoice": "Invoice",
+    "order": "Order",
+    "quote": "Quote",
+    "no-match": "no match found",
+    "subtotal": "Subtotal",
+    "balance": "Balance",
+    "payments": "Payments",
+    "currency": "MAD",
+    "ice": "ICE",
+    "if-number": "IF",
+    "rc": "RC",
+    "patente": "Patente / TP",
+    "reason": "Reason",
+    "contact": "Contact",
+    "legal-identifiers": "Legal Identifiers",
+    "credit-note": "Credit note",
+    "delivery-note": "Delivery note",
+    "client": "Client",
+    "paid-amount": "Paid amount"
+  },
+  "placeholders": {
+    "select-client": "Select a client",
+    "no-client-selected": "No client selected yet",
+    "no-email": "No email",
+    "no-address": "No address",
+    "no-phone": "No phone",
+    "payment-description": "Optional payment note",
+    "no-payments": "No payments recorded yet",
+    "reason": "Enter reason for credit note"
+  },
+  "seller-profile": {
+    "title": "Seller profile",
+    "description": "Company information used on B2B documents and invoices.",
+    "fields": {
+      "legal-name": "Legal name",
+      "commercial-name": "Commercial name",
+      "city": "City",
+      "currency": "Default currency",
+      "payment-terms": "Payment terms in days",
+      "invoice-footer": "Invoice footer"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Manage your application settings and configurations.",
+    "tabs": {
+      "databases": "Databases",
+      "seller-profile": "Seller Profile"
+    }
+  },
+  "clients": {
+    "title": "Clients",
+    "description": "Manage your clients and their contact information."
+  },
+  "products": {
+    "title": "Products",
+    "description": "Manage your product catalog and inventory."
+  },
+  "invoices": {
+    "title": "Invoices",
+    "description": "View and manage your invoices and payments."
+  },
+  "orders": {
+    "title": "Orders",
+    "description": "Create and manage your sales orders."
+  },
+  "inventory": {
+    "title": "Inventory",
+    "description": "Track your stock movements and inventory transactions."
+  },
+  "quotes": {
+    "title": "Quotes",
+    "description": "Create and manage your sales quotes."
+  },
+  "delivery-notes": {
+    "title": "Delivery Notes",
+    "description": "Manage your delivery documentation and shipments."
+  },
+  "credit-notes": {
+    "title": "Credit Notes",
+    "description": "Create and manage credit notes for your invoices."
+  },
+  "status": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "invoiced": "Invoiced",
+    "processing": "Processing",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "completed": "Completed",
+    "draft": "Draft",
+    "sent": "Sent",
+    "paid": "Paid",
+    "partially_paid": "Partially Paid",
+    "finalized": "Finalized",
+    "overdue": "Overdue",
+    "in": "Bought",
+    "out": "Sold"
+  },
+
+  "dashboard": {
+    "title": "Financial Overview",
+    "labels": ["BOUGHT", "SOLD"],
+    "revenue": "Total revenue",
+    "expenses": "Total expenses",
+    "profit": "Total profit",
+    "growth": " {n} from last month",
+    "b3c": "Best clients based on expenses",
+    "bp": "Best Selling Products (quantity)"
+  },
+  "tables": {
+    "empty": {
+      "title": "No results found",
+      "description": "Try adjusting your search or filters."
+    }
+  },
+  "database": {
+    "common": {
+      "none": "None",
+      "empty": "Empty",
+      "start-empty": "Start empty"
+    },
+    "actions": {
+      "refresh": "Refresh",
+      "new": "New Database",
+      "create": "Create",
+      "creating": "Creating...",
+      "switch": "Switch",
+      "seed": "Seed Data",
+      "seeding": "Seeding..."
+    },
+    "fields": {
+      "slug": "Slug",
+      "source": "Source",
+      "clone-from": "Clone From",
+      "database-name": "Database name",
+      "start-from": "Start from"
+    },
+    "status": {
+      "active": "Active",
+      "idle": "Idle",
+      "current": "Current",
+      "switch-title": "Switch Database"
+    },
+    "placeholders": {
+      "name": "Casablanca Store",
+      "initial-name": "Mahalli Main Workspace"
+    },
+    "settings": {
+      "title": "Database Settings",
+      "description": "Manage the catalog database and switch the active business database.",
+      "active-title": "Active Database",
+      "no-active-description": "No database selected.",
+      "catalog-title": "Catalog",
+      "catalog-count": "{count} databases",
+      "catalog-description": "New databases can start empty or clone any existing tenant file.",
+      "create-card-description": "Open a modal to create a clean database or clone an existing one.",
+      "create-card-note": "New databases can start empty or copy data from any previously registered database.",
+      "registered-title": "Registered Databases",
+      "registered-description": "These entries come from the system catalog database.",
+      "empty-state": "No databases are registered yet.",
+      "seed-title": "Seed Database",
+      "seed-description": "Populate the database with sample data for testing and development.",
+      "seed-card-note": "This will add 200 clients, 400 products, 100 orders, 100 invoices, and 150 quotes with sample data."
+    },
+    "create": {
+      "title": "Create Database",
+      "description": "Create a clean database or copy a previous one before switching to it.",
+      "make-active-title": "Make active immediately",
+      "make-active-description": "Business commands will use the new active tenant connection."
+    },
+    "selector": {
+      "title": "Choose Database",
+      "description": "Databases exist, but none is currently active. Pick one to continue.",
+      "opening": "Opening",
+      "use-database": "Use this database",
+      "manage": "Manage Databases"
+    },
+    "onboarding": {
+      "badge": "First-time setup",
+      "title": "Set up your first workspace database before you start managing clients and inventory.",
+      "description": "Mahalli keeps one system database for database management, and separate tenant databases for your business data. This setup screen creates the first tenant database and activates it immediately.",
+      "initial-tenant": "Initial Tenant",
+      "form-title": "Create Your First Database",
+      "form-description": "Use an empty database or copy data from a previous tenant if one is already registered.",
+      "active-note": "The new database will be marked active immediately so the rest of the app can open normally.",
+      "creating": "Creating database...",
+      "create-and-continue": "Create and Continue"
+    },
+    "notifications": {
+      "name-required": "Database name is required.",
+      "create-error": "Unable to create database.",
+      "create-success": "Database created.",
+      "switch-error": "Unable to switch database.",
+      "switch-success": "Active database changed.",
+      "open-error": "Unable to open database.",
+      "choose-another": "Please choose another database or create a new one.",
+      "initial-create-error": "Unable to create your first database.",
+      "try-another-name": "Try another name or choose a different source database.",
+      "ready": "Database ready.",
+      "seed-success": "Database seeded successfully",
+      "seed-error": "Unable to seed database"
+    }
+  },
+  "notifications": {
+    "product": {
+      "created": "Product {name} has been added",
+      "updated": "Product {name} has been updated",
+      "deleted": "Product {name} has been deleted"
+    },
+    "client": {
+      "created": "Client {name} has been added",
+      "updated": "Client {name} has been updated",
+      "deleted": "Client {name} has been deleted"
+    },
+    "order": {
+      "created": "An Order has been created",
+      "updated": "The Order has been updated",
+      "deleted": "The Order has been deleted"
+    },
+    "delivery-note": {
+      "created": "A delivery note has been created"
+    },
+    "credit-note": {
+      "created": "A credit note has been created"
+    },
+    "seller-profile": {
+      "updated": "Seller profile has been updated"
+    },
+    "invoice": {
+      "created": "An Invoice has been created",
+      "updated": "The Invoice has been updated",
+      "deleted": "The Invoice has been deleted",
+      "payment-added": "Payment added to the invoice",
+      "payment-too-high": "Payment amount is too high",
+      "payment-too-high-description": "The remaining unpaid amount is {amount}"
+    },
+    "quote": {
+      "created": "A Quote has been created",
+      "updated": "The Quote has been updated",
+      "deleted": "The Quote has been deleted"
+    },
+    "organization": {
+      "created": "Organization {name} has been created",
+      "updated": "Organization {name} has been updated",
+      "deleted": "Organization {name} has been deleted",
+      "no-org-alert": {
+        "title": "There's no selected organization",
+        "description": "Select or create an new organization"
+      }
+    },
+    "error": {
+      "title": "Oops! Something went wrong on our end.",
+      "description": "You can try again"
+    },
+    "errors": {
+      "database-required": "Select a database before using the app.",
+      "database-not-found": "The selected database could not be found.",
+      "database-source-not-found": "The source database could not be found.",
+      "database-source-file-missing": "The source database file is missing.",
+      "database-file-already-exists": "A database file with the same name already exists.",
+      "database-open-failed": "The database file could not be opened.",
+      "database-create-incomplete": "The database was created, but it could not be loaded afterwards.",
+      "client-not-found": "The client could not be found.",
+      "quote-not-found": "The quote could not be found.",
+      "order-not-found": "The order could not be found.",
+      "delivery-note-not-found": "The delivery note could not be found.",
+      "delivery-note-order-not-found": "The source order for this delivery note could not be found.",
+      "delivery-note-inventory-missing": "A linked stock movement for this delivery note could not be found.",
+      "credit-note-not-found": "The credit note could not be found.",
+      "credit-note-invoice-not-found": "The invoice for this credit note could not be found.",
+      "invoice-not-found": "The invoice could not be found.",
+      "invoice-payment-date-invalid": "The payment date is invalid.",
+      "invoice-payment-amount-invalid": "The payment amount must be greater than zero.",
+      "invoice-payment-deleted": "Payments cannot be added to a deleted invoice.",
+      "invoice-payment-exceeds-remaining": "The payment amount exceeds the remaining unpaid amount.",
+      "invoice-finalize-requires-paid": "Only fully paid invoices can be finalized.",
+      "invoice-finalized-edit-blocked": "Finalized invoices cannot be edited.",
+      "invoice-finalized-delete-blocked": "Finalized invoices cannot be deleted.",
+      "credit-note-requires-finalized-invoice": "Credit notes can only be created for finalized invoices.",
+      "credit-note-empty": "A credit note must contain at least one item.",
+      "credit-note-quantity-invalid": "Credit note quantities must be greater than zero.",
+      "credit-note-price-invalid": "Credit note prices cannot be negative.",
+      "credit-note-item-not-on-invoice": "One credit note item is not part of the source invoice.",
+      "credit-note-quantity-exceeds-invoice": "A credit note quantity exceeds the invoiced quantity.",
+      "credit-note-price-exceeds-invoice": "A credit note price exceeds the invoiced price.",
+      "order-status-invalid": "The order status is invalid.",
+      "invoice-status-invalid": "The invoice status is invalid.",
+      "status-transition-invalid": "That status change is not allowed.",
+      "inventory-transaction-missing": "A linked inventory transaction could not be found.",
+      "data-unavailable": "No data is available for this view yet.",
+      "conflict": "This action conflicts with existing data."
+    }
+  },
+  "titles": {
+    "clients": {
+      "create": "Add a client",
+      "update": "Update client",
+      "delete": "Delete client"
+    },
+    "products": {
+      "create": "Add a product",
+      "update": "Update product",
+      "update-inventory": "Update product inventory",
+      "delete": "Delete product"
+    },
+    "orders": {
+      "create": "Add new order",
+      "view": "View order",
+      "update": "Update order",
+      "delete": "Delete order"
+    },
+    "quotes": {
+      "create": "Add new quote",
+      "view": "View quote",
+      "update": "Update quote",
+      "delete": "Delete quote"
+    },
+    "invoices": {
+      "create": "Add new invoice",
+      "view": "View invoice",
+      "update": "Update invoice",
+      "delete": "Delete invoice",
+      "add-payment": "Add payment"
+    },
+    "credit-notes": {
+      "view": "View credit note"
+    },
+    "delivery-notes": {
+      "view": "View delivery note"
+    },
+    "organizations": {
+      "create": "Add new organization",
+      "update": "Update organization",
+      "delete": "Are you sure you want to delete the organization?"
+    }
+  },
+  "modalDescriptions": {
+    "clients": {
+      "create": "Add contact details and billing information for a new client.",
+      "update": "Review the client profile and save any contact changes.",
+      "delete": "This will permanently remove the client from your workspace."
+    },
+    "products": {
+      "create": "Set pricing, stock thresholds, and opening quantity for this product.",
+      "update": "Adjust pricing, thresholds, and product details before saving.",
+      "update-inventory": "Record the quantity you want to add back into stock.",
+      "delete": "This will permanently remove the product from your catalog."
+    },
+    "orders": {
+      "delete": "This will permanently remove the order and its linked line items."
+    },
+    "quotes": {
+      "delete": "This will permanently remove the quote and its linked line items."
+    },
+    "invoices": {
+      "delete": "This will permanently remove the invoice and its linked line items."
+    }
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "seo": {
+    "title": "Gestion facile des stocks et de la facturation",
+    "description": "Gérez facilement vos clients et vos produits, générez des devis, des commandes et des factures avec Mahalli - votre solution d'entreprise tout-en-un."
+  },
+  "search": "Recherche",
+  "pick-date": "Choisissez une date",
+  "select-status": "Sélectionnez un statut",
+  "routes": {
+    "home": "Accueil",
+    "clients": "Clients",
+    "products": "Produits",
+    "orders": "Commandes",
+    "delivery-notes": "Bons de livraison",
+    "invoices": "Factures",
+    "credit-notes": "Avoirs",
+    "inventory": "Inventaire",
+    "dashboard": "Tableau de bord",
+    "settings": "Paramètres",
+    "quotes": "Devis",
+    "notifications": "Notifications"
+  },
+  "buttons": {
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "add": "Ajouter",
+    "confirme": "Confirmer",
+    "update": "Mettre à jour {name}",
+    "add-product": "Ajouter un produit",
+    "toggle-create-client": "Ajouter un nouveau client",
+    "toggle-create-product": "Ajouter un nouveau produit",
+    "toggle-create-order": "Ajouter une nouvelle commande",
+    "toggle-create-quote": "Ajouter un nouveau devis",
+    "toggle-create-invoice": "Ajouter une nouvelle facture",
+    "toggle-create-org": "Créer une organisation",
+    "edit": "Modifier",
+    "finalize": "Finaliser",
+    "add-payment": "Ajouter un paiement",
+    "delete": "Supprimer",
+    "print": "Imprimer",
+    "to-order": "Créer une commande",
+    "to-delivery-note": "Créer un bon de livraison",
+    "to-invoice": "Créer une facture",
+    "go-to-order": "Aller à la commande",
+    "go-to-delivery-note": "Aller au bon de livraison",
+    "go-to-invoice": "Aller à la facture",
+    "create-invoice": "Créer une facture",
+    "create-credit-note": "Créer un avoir",
+    "inventory-update": "Mettre à jour l'inventaire",
+    "generate-invoice": "Générer la facture",
+    "generate-order": "Générer la commande",
+    "generate-quote": "Générer le devis",
+    "generate-delivery-note": "Générer le bon de livraison",
+    "generate-credit-note": "Générer l'avoir",
+    "create": "Créer",
+    "creating": "Création...",
+    "view": "Afficher",
+    "close": "Fermer"
+  },
+  "translationTitle": "Changer de langue",
+  "translationDescription": "Choisissez la langue à utiliser dans Mahalli.",
+  "filters": {
+    "more": "Plus de filtres",
+    "clear-all": "Tout effacer",
+    "from": "Du",
+    "to": "Au",
+    "min": "Min",
+    "max": "Max",
+    "required": "Requis",
+    "credit-only": "Clients avec un crédit impayé",
+    "has-email": "Avec e-mail",
+    "has-phone": "Avec téléphone",
+    "stock-status": "État du stock",
+    "out-of-stock": "Rupture de stock",
+    "low-stock": "Stock faible",
+    "healthy-stock": "Stock sain",
+    "search-by-field": "Rechercher par champ"
+  },
+  "columns": {
+    "show-hide": "Afficher/Masquer les colonnes",
+    "all": "Tous"
+  },
+  "dropZone": "Glissez-déposez ou sélectionnez",
+  "plrz": {
+    "i": "aucun élément | élément | éléments",
+    "p": "aucun produit | produit | produits"
+  },
+  "fields": {
+    "full-name": "Nom complet",
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Numéro de téléphone",
+    "address": "Adresse",
+    "actions": "Actions",
+    "identifier": "Identifiant",
+    "columns": "Colonnes",
+    "description": "Description",
+    "amount": "Montant",
+    "status": "Statut",
+    "price": "Prix",
+    "purchase-price": "Prix d'achat",
+    "selling-price": "Prix de vente",
+    "date": "Date",
+    "paid": "Payé",
+    "rest": "Reste",
+    "items": "Articles",
+    "total": "Total",
+    "inventory": "Inventaire",
+    "init-quantity": "Quantité initiale",
+    "min-quantity": "Quantité minimale",
+    "quantity": "Quantité",
+    "credit": "Crédit",
+    "threshold": "Seuil",
+    "item": "Article",
+    "product": "Produit",
+    "sub-total": "Sous-total",
+    "vat-rate": "Taux de TVA",
+    "vat-amount": "Montant de la TVA",
+    "grand-total": "Grand total",
+    "template": "Modèle",
+    "configuration": "Configuration",
+    "top-margin": "Marge supérieure",
+    "bottom-margin": "Marge inférieure",
+    "bill-to": "Facturer à :",
+    "invoice": "Facture",
+    "order": "Commande",
+    "quote": "Devis",
+    "no-match": "aucune correspondance trouvée",
+    "subtotal": "Sous-total",
+    "balance": "Solde",
+    "payments": "Paiements",
+    "currency": "MAD",
+    "ice": "ICE",
+    "if-number": "IF",
+    "rc": "RC",
+    "patente": "Patente / TP",
+    "reason": "Motif",
+    "contact": "Contact",
+    "legal-identifiers": "Identifiants légaux",
+    "credit-note": "Note de crédit",
+    "delivery-note": "Bordereau de livraison",
+    "client": "Client",
+    "paid-amount": "Montant payé"
+  },
+  "placeholders": {
+    "select-client": "Sélectionnez un client",
+    "no-client-selected": "Aucun client sélectionné",
+    "no-email": "Pas d'email",
+    "no-address": "Pas d'adresse",
+    "no-phone": "Pas de téléphone",
+    "payment-description": "Note de paiement facultative",
+    "no-payments": "Aucun paiement enregistré",
+    "reason": "Entrez la raison du note de crédit"
+  },
+  "seller-profile": {
+    "title": "Profil vendeur",
+    "description": "Informations de l'entreprise utilisées sur les documents B2B et les factures.",
+    "fields": {
+      "legal-name": "Raison sociale",
+      "commercial-name": "Nom commercial",
+      "city": "Ville",
+      "currency": "Devise par défaut",
+      "payment-terms": "Délai de paiement en jours",
+      "invoice-footer": "Pied de facture"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "description": "Gérez les paramètres et les configurations de votre application.",
+    "tabs": {
+      "databases": "Bases de données",
+      "seller-profile": "Profil vendeur"
+    }
+  },
+  "clients": {
+    "title": "Clients",
+    "description": "Gérez vos clients et leurs informations de contact."
+  },
+  "products": {
+    "title": "Produits",
+    "description": "Gérez votre catalogue de produits et vos stocks."
+  },
+  "invoices": {
+    "title": "Factures",
+    "description": "Consultez et gérez vos factures et paiements."
+  },
+  "orders": {
+    "title": "Commandes",
+    "description": "Créez et gérez vos commandes de vente."
+  },
+  "inventory": {
+    "title": "Inventaire",
+    "description": "Suivez vos mouvements de stock et transactions d'inventaire."
+  },
+  "quotes": {
+    "title": "Devis",
+    "description": "Créez et gérez vos devis de vente."
+  },
+  "delivery-notes": {
+    "title": "Bons de livraison",
+    "description": "Gérez votre documentation de livraison et vos expéditions."
+  },
+  "credit-notes": {
+    "title": "Avoirs",
+    "description": "Créez et gérez les avoirs pour vos factures."
+  },
+  "status": {
+    "pending": "En attente",
+    "accepted": "Accepté",
+    "invoiced": "Facturé",
+    "processing": "En cours de traitement",
+    "shipped": "Expédié",
+    "delivered": "Livré",
+    "cancelled": "Annulé",
+    "completed": "Complété",
+    "draft": "Brouillon",
+    "sent": "Envoyé",
+    "paid": "Payé",
+    "partially_paid": "Partiellement payé",
+    "finalized": "Finalisé",
+    "overdue": "En retard",
+    "in": "Acheté",
+    "out": "Vendu"
+  },
+  "dashboard": {
+    "title": "Aperçu financier",
+    "labels": ["ACHETÉ", "VENDU"],
+    "revenue": "Revenu total",
+    "expenses": "Dépenses totales",
+    "profit": "Bénéfice total",
+    "growth": " {n} par rapport au mois dernier",
+    "b3c": "Meilleurs clients en fonction des dépenses",
+    "bp": "Meilleurs produits vendus (quantité)"
+  },
+  "tables": {
+    "empty": {
+      "title": "Aucun résultat trouvé",
+      "description": "Essayez d'ajuster votre recherche ou vos filtres."
+    }
+  },
+  "database": {
+    "common": {
+      "none": "Aucune",
+      "empty": "Vide",
+      "start-empty": "Commencer vide"
+    },
+    "actions": {
+      "refresh": "Actualiser",
+      "new": "Nouvelle base",
+      "create": "Créer",
+      "creating": "Création...",
+      "switch": "Basculer",
+      "seed": "Données d'exemple",
+      "seeding": "Remplissage..."
+    },
+    "fields": {
+      "slug": "Slug",
+      "source": "Source",
+      "clone-from": "Cloner depuis",
+      "database-name": "Nom de la base",
+      "start-from": "Démarrer à partir de"
+    },
+    "status": {
+      "active": "Active",
+      "idle": "Inactive",
+      "current": "Actuelle",
+      "switch-title": "Changer de base"
+    },
+    "placeholders": {
+      "name": "Magasin Casablanca",
+      "initial-name": "Espace principal Mahalli"
+    },
+    "settings": {
+      "title": "Paramètres des bases",
+      "description": "Gérez la base catalogue et changez la base métier active.",
+      "active-title": "Base active",
+      "no-active-description": "Aucune base sélectionnée.",
+      "catalog-title": "Catalogue",
+      "catalog-count": "{count} bases",
+      "catalog-description": "Les nouvelles bases peuvent démarrer vides ou cloner un fichier tenant existant.",
+      "create-card-description": "Ouvrez une fenêtre pour créer une base propre ou cloner une base existante.",
+      "create-card-note": "Les nouvelles bases peuvent démarrer vides ou copier les données d'une base déjà enregistrée.",
+      "registered-title": "Bases enregistrées",
+      "registered-description": "Ces entrées proviennent de la base catalogue système.",
+      "empty-state": "Aucune base n'est encore enregistrée.",
+      "seed-title": "Remplir la base avec des données d'exemple",
+      "seed-description": "Remplissez la base avec des données d'exemple pour tester et développer.",
+      "seed-card-note": "Cela ajoutera 200 clients, 400 produits, 100 commandes, 100 factures et 150 devis avec des données d'exemple."
+    },
+    "create": {
+      "title": "Créer une base",
+      "description": "Créez une base propre ou copiez une base précédente avant de l'activer.",
+      "make-active-title": "Rendre active immédiatement",
+      "make-active-description": "Les commandes métier utiliseront la nouvelle connexion tenant active."
+    },
+    "selector": {
+      "title": "Choisir une base",
+      "description": "Des bases existent, mais aucune n'est active actuellement. Choisissez-en une pour continuer.",
+      "opening": "Ouverture",
+      "use-database": "Utiliser cette base",
+      "manage": "Gérer les bases"
+    },
+    "onboarding": {
+      "badge": "Première configuration",
+      "title": "Configurez votre première base d'espace de travail avant de gérer clients et stock.",
+      "description": "Mahalli conserve une base système pour la gestion des bases, et des bases tenant séparées pour vos données métier. Cet écran crée la première base tenant et l'active immédiatement.",
+      "initial-tenant": "Tenant initial",
+      "form-title": "Créez votre première base",
+      "form-description": "Utilisez une base vide ou copiez les données d'un tenant précédent s'il en existe déjà un.",
+      "active-note": "La nouvelle base sera marquée active immédiatement afin que le reste de l'application puisse s'ouvrir normalement.",
+      "creating": "Création de la base...",
+      "create-and-continue": "Créer et continuer"
+    },
+    "notifications": {
+      "name-required": "Le nom de la base est requis.",
+      "create-error": "Impossible de créer la base.",
+      "create-success": "Base créée.",
+      "switch-error": "Impossible de basculer la base.",
+      "switch-success": "La base active a changé.",
+      "open-error": "Impossible d'ouvrir la base.",
+      "choose-another": "Choisissez une autre base ou créez-en une nouvelle.",
+      "initial-create-error": "Impossible de créer votre première base.",
+      "try-another-name": "Essayez un autre nom ou choisissez une autre base source.",
+      "ready": "Base prête.",
+      "seed-success": "La base a été remplie avec succès",
+      "seed-error": "Impossible de remplir la base"
+    }
+  },
+  "notifications": {
+    "product": {
+      "created": "Le produit {name} a été ajouté",
+      "updated": "Le produit {name} a été mis à jour",
+      "deleted": "Le produit {name} a été supprimé"
+    },
+    "client": {
+      "created": "Le client {name} a été ajouté",
+      "updated": "Le client {name} a été mis à jour",
+      "deleted": "Le client {name} a été supprimé"
+    },
+    "order": {
+      "created": "Une commande a été créée",
+      "updated": "La commande a été mise à jour",
+      "deleted": "La commande a été supprimée"
+    },
+    "delivery-note": {
+      "created": "Un bon de livraison a été créé"
+    },
+    "credit-note": {
+      "created": "Un avoir a été créé"
+    },
+    "seller-profile": {
+      "updated": "Le profil vendeur a été mis à jour"
+    },
+    "invoice": {
+      "created": "Une facture a été créée",
+      "updated": "La facture a été mise à jour",
+      "deleted": "La facture a été supprimée",
+      "payment-added": "Le paiement a été ajouté à la facture",
+      "payment-too-high": "Le montant du paiement est trop élevé",
+      "payment-too-high-description": "Le montant impayé restant est de {amount}"
+    },
+    "quote": {
+      "created": "Un devis a été créé",
+      "updated": "Le devis a été mis à jour",
+      "deleted": "Le devis a été supprimé"
+    },
+    "organization": {
+      "created": "L'organisation {name} a été créée",
+      "updated": "L'organisation {name} a été mise à jour",
+      "deleted": "L'organisation {name} a été supprimée",
+      "no-org-alert": {
+        "title": "Aucune organisation sélectionnée",
+        "description": "Sélectionnez ou créez une nouvelle organisation"
+      }
+    },
+    "error": {
+      "title": "Oups ! Quelque chose s'est mal passé de notre côté.",
+      "description": "Vous pouvez réessayer"
+    },
+    "errors": {
+      "database-required": "Sélectionnez une base de données avant d'utiliser l'application.",
+      "database-not-found": "La base de données sélectionnée est introuvable.",
+      "database-source-not-found": "La base de données source est introuvable.",
+      "database-source-file-missing": "Le fichier de la base de données source est manquant.",
+      "database-file-already-exists": "Un fichier de base de données avec le même nom existe déjà.",
+      "database-open-failed": "Impossible d'ouvrir le fichier de base de données.",
+      "database-create-incomplete": "La base de données a été créée, mais elle n'a pas pu être chargée ensuite.",
+      "client-not-found": "Le client est introuvable.",
+      "quote-not-found": "Le devis est introuvable.",
+      "order-not-found": "La commande est introuvable.",
+      "delivery-note-not-found": "Le bon de livraison est introuvable.",
+      "delivery-note-order-not-found": "La commande source de ce bon de livraison est introuvable.",
+      "delivery-note-inventory-missing": "Un mouvement de stock lié à ce bon de livraison est introuvable.",
+      "credit-note-not-found": "L'avoir est introuvable.",
+      "credit-note-invoice-not-found": "La facture de cet avoir est introuvable.",
+      "invoice-not-found": "La facture est introuvable.",
+      "invoice-payment-date-invalid": "La date du paiement est invalide.",
+      "invoice-payment-amount-invalid": "Le montant du paiement doit être supérieur à zéro.",
+      "invoice-payment-deleted": "Impossible d'ajouter un paiement à une facture supprimée.",
+      "invoice-payment-exceeds-remaining": "Le montant du paiement dépasse le reste à payer.",
+      "invoice-finalize-requires-paid": "Seules les factures entièrement payées peuvent être finalisées.",
+      "invoice-finalized-edit-blocked": "Les factures finalisées ne peuvent pas être modifiées.",
+      "invoice-finalized-delete-blocked": "Les factures finalisées ne peuvent pas être supprimées.",
+      "credit-note-requires-finalized-invoice": "Les avoirs ne peuvent être créés que pour des factures finalisées.",
+      "credit-note-empty": "Un avoir doit contenir au moins un article.",
+      "credit-note-quantity-invalid": "Les quantités de l'avoir doivent être supérieures à zéro.",
+      "credit-note-price-invalid": "Les prix de l'avoir ne peuvent pas être négatifs.",
+      "credit-note-item-not-on-invoice": "Un article de l'avoir ne fait pas partie de la facture source.",
+      "credit-note-quantity-exceeds-invoice": "Une quantité de l'avoir dépasse la quantité facturée.",
+      "credit-note-price-exceeds-invoice": "Un prix de l'avoir dépasse le prix facturé.",
+      "order-status-invalid": "Le statut de la commande est invalide.",
+      "invoice-status-invalid": "Le statut de la facture est invalide.",
+      "status-transition-invalid": "Ce changement de statut n'est pas autorisé.",
+      "inventory-transaction-missing": "Une transaction de stock liée est introuvable.",
+      "data-unavailable": "Aucune donnée n'est disponible pour cette vue pour le moment.",
+      "conflict": "Cette action entre en conflit avec des données existantes."
+    }
+  },
+  "titles": {
+    "clients": {
+      "create": "Ajouter un client",
+      "update": "Mettre à jour le client",
+      "delete": "Supprimer le client"
+    },
+    "products": {
+      "create": "Ajouter un produit",
+      "update": "Mettre à jour le produit",
+      "update-inventory": "Mettre à jour l'inventaire du produit",
+      "delete": "Supprimer le produit"
+    },
+    "orders": {
+      "create": "Ajouter une nouvelle commande",
+      "view": "Afficher la commande",
+      "update": "Mettre à jour la commande",
+      "delete": "Supprimer la commande"
+    },
+    "quotes": {
+      "create": "Ajouter un nouveau devis",
+      "view": "Afficher le devis",
+      "update": "Mettre à jour le devis",
+      "delete": "Supprimer le devis"
+    },
+    "invoices": {
+      "create": "Ajouter une nouvelle facture",
+      "view": "Afficher la facture",
+      "update": "Mettre à jour la facture",
+      "delete": "Supprimer la facture",
+      "add-payment": "Ajouter un paiement"
+    },
+    "credit-notes": {
+      "view": "Afficher la note de crédit"
+    },
+    "delivery-notes": {
+      "view": "Afficher le bordereau de livraison"
+    },
+    "organizations": {
+      "create": "Ajouter une nouvelle organisation",
+      "update": "Mettre à jour l'organisation",
+      "delete": "Êtes-vous sûr de vouloir supprimer l'organisation ?"
+    }
+  },
+  "modalDescriptions": {
+    "clients": {
+      "create": "Ajoutez les coordonnées et les informations de facturation d’un nouveau client.",
+      "update": "Vérifiez la fiche client et enregistrez les dernières modifications.",
+      "delete": "Cette action supprimera définitivement le client de votre espace de travail."
+    },
+    "products": {
+      "create": "Définissez les prix, le seuil de stock et la quantité initiale du produit.",
+      "update": "Ajustez les prix, les seuils et les détails du produit avant d’enregistrer.",
+      "update-inventory": "Indiquez la quantité que vous souhaitez ajouter au stock.",
+      "delete": "Cette action supprimera définitivement le produit de votre catalogue."
+    },
+    "orders": {
+      "delete": "Cette action supprimera définitivement la commande et ses lignes associées."
+    },
+    "quotes": {
+      "delete": "Cette action supprimera définitivement le devis et ses lignes associées."
+    },
+    "invoices": {
+      "delete": "Cette action supprimera définitivement la facture et ses lignes associées."
+    }
+  }
+}

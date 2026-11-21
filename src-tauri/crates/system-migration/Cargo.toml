@@ -1,0 +1,17 @@
+[package]
+name = "system-migration"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "system_migration"
+path = "src/lib.rs"
+
+[dependencies]
+regex = { version = "1.12.3", features = ["std"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+
+[dependencies.sea-orm-migration]
+version = "2.0.0-rc.38"
+features = ["runtime-tokio-rustls", "sqlx-sqlite"]
